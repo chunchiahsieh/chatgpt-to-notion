@@ -1,0 +1,12 @@
+button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #4CAF50;  /* 改為你的綠色 */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;  /* 保證按鈕不被其他元素遮擋 */
+    z-index: 1000;  /* 讓按鈕在其他元素之上 */
+}
